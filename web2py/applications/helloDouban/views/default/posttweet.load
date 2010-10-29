@@ -1,0 +1,2 @@
+{{=A(T('post a new tweet'),_onclick="jQuery('#postform').toggle()")}}
+ {{=form}}

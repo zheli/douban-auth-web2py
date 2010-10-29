@@ -1,0 +1,8 @@
+{{extend 'layout.html'}}
+
+  <table >
+{{for tw in tweets:}}
+    {{=TR(TD(IMG(_src=tw['icon'])), TD('%s: ' % tw['name'] , XML(tw['content'])))}}
+    {{=TR()}}
+  {{pass}}
+  </table>

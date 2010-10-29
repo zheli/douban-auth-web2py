@@ -1,0 +1,5 @@
+CLIENT_ID="01594f7321c8fef0040bee59655afcd0"
+CLIENT_SECRET="ef14db8e1e279dd2"
+TOKEN_URL="http://www.douban.com/service/auth/request_token"
+AUTH_URL="http://www.douban.com/service/auth/authorize"
+ACCESS_TOKEN_URL="http://www.douban.com/service/auth/access_token"
